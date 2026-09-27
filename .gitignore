@@ -1,0 +1,17 @@
+# Dependencies (huge; reinstall with npm install)
+node_modules/
+
+# Build output
+dist/
+
+# Secrets (JWT secret, DB passwords)
+.env
+
+# Logs
+*.log
+npm-debug.log*
+
+# OS / editor files
+.DS_Store
+Thumbs.db
+.vscode/
